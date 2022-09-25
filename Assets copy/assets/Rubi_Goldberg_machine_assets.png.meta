@@ -1,0 +1,750 @@
+fileFormatVersion: 2
+guid: bf5bd8efeddbd43a0816871de9c827f2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_0
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3339
+        width: 580
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb50d3d591bd64d5882bb7830385c83f
+      internalID: 1556527055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_1
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 3398
+        width: 304
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1b338f234884391902015a41635479
+      internalID: -593009451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_2
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 3576
+        width: 113
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5475453, y: 0.45445445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194c3e630511f4357913e8277bc73be6
+      internalID: 1059831441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_3
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 3437
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14295d0b661284a268155c1095179cc9
+      internalID: 1885154892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_4
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 3581
+        width: 320
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732d21708084c46daa3db21a2dbb3da2
+      internalID: 1536614331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_5
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 3294
+        width: 181
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642c9044aaade44a4898527674eca2bc
+      internalID: 578670679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_6
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 3273
+        width: 238
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f209c61036d374e22b0d1f8b187badfa
+      internalID: 619409163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_7
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 3273
+        width: 282
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46289281196054aaaa9ac7342dcd4ff1
+      internalID: 734303421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_8
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 3301
+        width: 116
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a09fd1f5c8cf4f80bd8dbdef3a8fd14
+      internalID: -1665369546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_9
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 3308
+        width: 117
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4498e24892f4feaa9ad8fd8959989f
+      internalID: -160178467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_10
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 3311
+        width: 119
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae38cbae69dd4f95b0da74e64dd82c4
+      internalID: -1335311341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_11
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 3332
+        width: 122
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ea5dfb0738b4cab9bdfd3358ef82f6
+      internalID: 873004669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_12
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 3330
+        width: 124
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a22007303cf4f2191952f36270e58c
+      internalID: 1565175111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_13
+      rect:
+        serializedVersion: 2
+        x: 3824
+        y: 3349
+        width: 122
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937aab74ecde5437c84e27f79b9e8baf
+      internalID: 439263870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_14
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 2723
+        width: 1581
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f977e5fa2bdb41a48de800a29c08671
+      internalID: 1741786020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2653
+        width: 137
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9689ae13a45b84f838b8b1992a6e4109
+      internalID: 213574770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_16
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 2679
+        width: 193
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec3d022ea6dc4c8ba894bb048633287
+      internalID: -625888853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_17
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 2674
+        width: 200
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb62eb49d332b46de85b0a0b2c4aebac
+      internalID: 2131943135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_18
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 2656
+        width: 195
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3770cebc0ec9c494d8c03ebde6909aa4
+      internalID: -1233102368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_19
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 2291
+        width: 714
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bff5cba66e4546da87b435082b07aef
+      internalID: -671216135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_20
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1973
+        width: 958
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6693b4d96b38e4e48a7cf9072ec75c51
+      internalID: 36284466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_21
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 720
+        width: 530
+        height: 1793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658c34cd1683543baadcd3e39dba69d5
+      internalID: -1816858084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_22
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 2147
+        width: 1043
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9f39d67fd8f48f7ab2c5c508e45c17
+      internalID: -522161426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_23
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 88
+        width: 52
+        height: 2068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c96259303864b8ea6a2e406c7c6daa
+      internalID: -1947173443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_24
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 713
+        width: 857
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe03e1e1d615a43fa8b399e10f1731f7
+      internalID: 645824060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_25
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 700
+        width: 487
+        height: 1245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41be4ab29a3e140799f316016a90504a
+      internalID: 1982164278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_26
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 696
+        width: 525
+        height: 1245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdd11a8081fa484cbb5c8f1ea9ab6d1
+      internalID: -2024792413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rubi_Goldberg_machine_assets_27
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 0
+        width: 940
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b85dc0987e29415f88521005cd88f97
+      internalID: -2038780163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Rubi_Goldberg_machine_assets_1: -593009451
+      Rubi_Goldberg_machine_assets_6: 619409163
+      Rubi_Goldberg_machine_assets_15: 213574770
+      Rubi_Goldberg_machine_assets_2: 1059831441
+      Rubi_Goldberg_machine_assets_22: -522161426
+      Rubi_Goldberg_machine_assets_27: -2038780163
+      Rubi_Goldberg_machine_assets_16: -625888853
+      Rubi_Goldberg_machine_assets_26: -2024792413
+      Rubi_Goldberg_machine_assets_10: -1335311341
+      Rubi_Goldberg_machine_assets_19: -671216135
+      Rubi_Goldberg_machine_assets_21: -1816858084
+      Rubi_Goldberg_machine_assets_18: -1233102368
+      Rubi_Goldberg_machine_assets_3: 1885154892
+      Rubi_Goldberg_machine_assets_12: 1565175111
+      Rubi_Goldberg_machine_assets_17: 2131943135
+      Rubi_Goldberg_machine_assets_13: 439263870
+      Rubi_Goldberg_machine_assets_20: 36284466
+      Rubi_Goldberg_machine_assets_9: -160178467
+      Rubi_Goldberg_machine_assets_24: 645824060
+      Rubi_Goldberg_machine_assets_7: 734303421
+      Rubi_Goldberg_machine_assets_4: 1536614331
+      Rubi_Goldberg_machine_assets_11: 873004669
+      Rubi_Goldberg_machine_assets_14: 1741786020
+      Rubi_Goldberg_machine_assets_8: -1665369546
+      Rubi_Goldberg_machine_assets_23: -1947173443
+      Rubi_Goldberg_machine_assets_25: 1982164278
+      Rubi_Goldberg_machine_assets_5: 578670679
+      Rubi_Goldberg_machine_assets_0: 1556527055
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
