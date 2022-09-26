@@ -24,6 +24,8 @@ public class cameraSmoothFollow : MonoBehaviour
 
     public AudioClip sound;
     AudioSource spacePressed;
+
+
     public GameObject text;
 
     // Start is called before the first frame update
@@ -40,7 +42,7 @@ public class cameraSmoothFollow : MonoBehaviour
             Destroy(startObject);
             
             target = startFollow;
-            spacePressed.Play();
+            spacePressed.PlayOneShot(sound);
             isPressed = true;
             Destroy(text);
         }

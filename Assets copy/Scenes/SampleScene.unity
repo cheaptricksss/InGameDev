@@ -230,7 +230,7 @@ WheelJoint2D:
     m_DampingRatio: 0.7
     m_Frequency: 2
     m_Angle: 90
-  m_UseMotor: 1
+  m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: -100
     m_MaximumMotorForce: 10000
@@ -910,6 +910,8 @@ MonoBehaviour:
   counter: 0
   objectToDestroy: {fileID: 2066068661}
   self: {fileID: 142892679}
+  leftWheel: {fileID: 18597943}
+  rightWheel: {fileID: 1471179545}
   objName: marbleFollowed
 --- !u!61 &142892681
 BoxCollider2D:
@@ -2625,6 +2627,8 @@ MonoBehaviour:
   counter: 0
   objectToDestroy: {fileID: 0}
   self: {fileID: 0}
+  leftWheel: {fileID: 0}
+  rightWheel: {fileID: 0}
   objName: domino1/0
 --- !u!82 &443791374
 AudioSource:
@@ -4091,6 +4095,8 @@ MonoBehaviour:
   counter: 0
   objectToDestroy: {fileID: 0}
   self: {fileID: 0}
+  leftWheel: {fileID: 0}
+  rightWheel: {fileID: 0}
   objName: domino0/2
 --- !u!82 &645869893
 AudioSource:
@@ -4985,6 +4991,8 @@ MonoBehaviour:
   counter: 0
   objectToDestroy: {fileID: 0}
   self: {fileID: 0}
+  leftWheel: {fileID: 0}
+  rightWheel: {fileID: 0}
   objName: domino3/1
 --- !u!82 &699210060
 AudioSource:
@@ -5730,6 +5738,8 @@ MonoBehaviour:
   counter: 0
   objectToDestroy: {fileID: 0}
   self: {fileID: 0}
+  leftWheel: {fileID: 0}
+  rightWheel: {fileID: 0}
   objName: domino0/4
 --- !u!82 &832592312
 AudioSource:
@@ -9433,6 +9443,8 @@ MonoBehaviour:
   counter: 0
   objectToDestroy: {fileID: 1326445159}
   self: {fileID: 1326445159}
+  leftWheel: {fileID: 0}
+  rightWheel: {fileID: 0}
   objName: marbleFollowed
 --- !u!1 &1341553249
 GameObject:
@@ -9930,7 +9942,7 @@ WheelJoint2D:
     m_DampingRatio: 0.7
     m_Frequency: 2
     m_Angle: 90
-  m_UseMotor: 1
+  m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: -100
     m_MaximumMotorForce: 10000
@@ -11869,6 +11881,8 @@ MonoBehaviour:
   counter: 0
   objectToDestroy: {fileID: 0}
   self: {fileID: 0}
+  leftWheel: {fileID: 0}
+  rightWheel: {fileID: 0}
   objName: seaSaw
 --- !u!114 &1919061329
 MonoBehaviour:
@@ -13012,7 +13026,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &2066068662
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13550,6 +13564,8 @@ MonoBehaviour:
   counter: 0
   objectToDestroy: {fileID: 0}
   self: {fileID: 0}
+  leftWheel: {fileID: 0}
+  rightWheel: {fileID: 0}
   objName: bowwlingBall
 --- !u!82 &2104837351
 AudioSource:
@@ -13812,6 +13828,8 @@ MonoBehaviour:
   counter: 0
   objectToDestroy: {fileID: 0}
   self: {fileID: 0}
+  leftWheel: {fileID: 0}
+  rightWheel: {fileID: 0}
   objName: domino0/6
 --- !u!82 &2116556852
 AudioSource:

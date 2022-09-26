@@ -11,7 +11,8 @@ public class invisibleCheck1 : MonoBehaviour
     public GameObject self;
     // will be true when the follow code for the camera is written
     //public bool follow;
-    
+    public WheelJoint2D leftWheel;
+    public WheelJoint2D rightWheel;
     //Camera MainCamera;
 
     public string objName;
@@ -43,12 +44,14 @@ public class invisibleCheck1 : MonoBehaviour
             Destroy(objectToDestroy);
             Destroy(self);
 
+            leftWheel.useMotor = true;
+            rightWheel.useMotor = true;
 
             //MainCamera.GetComponent<cameraSmoothFollow>().move = true;
             //Debug.Log(MainCamera.GetComponent<cameraSmoothFollow>().move);
             //MainCamera.GetComponent<cameraSmoothFollow>().target = NewTarget;
             //Find().GetComponent<cameraSmoothFollow>().target = NewTarget;
-            
+
 
         }
 
