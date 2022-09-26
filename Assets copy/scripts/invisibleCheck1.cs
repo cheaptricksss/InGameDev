@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class invisibleCheck1 : MonoBehaviour
 {
-
+    public int counter;
     // public GameObject marbelFollowed;
     public Transform NewTarget;
     public GameObject objectToDestroy;
@@ -14,13 +14,14 @@ public class invisibleCheck1 : MonoBehaviour
     
     Camera MainCamera;
 
-    public string objName = "marbleFollowed";
+    public string objName;
     //Vector3 go;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        counter = 0;
+        objName = "marbleFollowed";
     }
 
     // Update is called once per frame
@@ -33,15 +34,17 @@ public class invisibleCheck1 : MonoBehaviour
     {
         if (collision.gameObject.transform.name == objName)
         {
+
+            counter += 1;
             Destroy(objectToDestroy);
             Destroy(self);
 
-            if (follow == true)
-            {
-                MainCamera.GetComponent<cameraSmoothFollow>().move = true;
-                Debug.Log(MainCamera.GetComponent<cameraSmoothFollow>().move);
-                MainCamera.GetComponent<cameraSmoothFollow>().target = NewTarget;
-            }
+           
+            //MainCamera.GetComponent<cameraSmoothFollow>().move = true;
+            //Debug.Log(MainCamera.GetComponent<cameraSmoothFollow>().move);
+            //MainCamera.GetComponent<cameraSmoothFollow>().target = NewTarget;
+            //Find().GetComponent<cameraSmoothFollow>().target = NewTarget;
+
 
         }
 

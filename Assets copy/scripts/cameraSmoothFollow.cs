@@ -13,16 +13,19 @@ public class cameraSmoothFollow : MonoBehaviour
     public float followSpeed = 0.125f;
     public Vector3 offset;
 
+    // add bowling
+    public Transform secondCam;
+
 
     public bool move;
     public float speedY = 0.02f;
     public float speedX = 0.02f;
+    int counterTrigger;
     
-
     // Start is called before the first frame update
     void Start()
     {
-        
+        int counterTrigger = GameObject.Find("invisibleCheck1").GetComponent<invisibleCheck1>().counter;
     }
 
     // Update is called once per frame
@@ -32,21 +35,44 @@ public class cameraSmoothFollow : MonoBehaviour
             Destroy(startObject);
             target = startFollow;
          }
-
-
-    }
-
-    private void LateUpdate()
-    {
-        if (move == false)
-        {
-            transform.position = target.position + offset;
-        }
         if (move == true)
         {
 
             transform.position += new Vector3(speedX, speedY, 0);
 
+
+        }
+
+        // counterTrigger = GameObject.Find("invisibleCheck1").GetComponent<invisibleCheck1>().counter;
+
+        
+
+    }
+
+    private void LateUpdate()
+    {
+        // if (move == false)
+        // {
+            transform.position = target.position + offset;
+        // }
+        if (counterTrigger <= 1)
+        {
+            transform.position = target.position + offset;
+        }
+        else if (counterTrigger == 2)
+        {
+            transform.position = secondCam.position + offset;
+        }
+        else if (counterTrigger == 3)
+        {
+
+        }
+        else if (counterTrigger == 4)
+        {
+
+        }
+        else if (counterTrigger == 5)
+        {
 
         }
     }
