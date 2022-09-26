@@ -21,10 +21,10 @@ public class marbleFollowScript : MonoBehaviour
     void Update()
     {
 
-        if (check == true)
-        {
-            transform.position += new Vector3(speedX, speedY, 0);
-        }
+           // if (check == true)
+           // {
+           //     transform.position += new Vector3(speedX, speedY, 0);
+           // }
 
     }
 
@@ -34,9 +34,9 @@ public class marbleFollowScript : MonoBehaviour
         {
             Debug.Log("Hit");
             check = true;
-            GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+            // GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
             // GetComponent<Rigidbody>().
-            GetComponent<Collider>().isTrigger = true;
+            // GetComponent<Collider>().isTrigger = true;
 
         }
 
